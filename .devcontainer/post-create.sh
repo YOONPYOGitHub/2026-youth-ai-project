@@ -8,6 +8,13 @@ echo "📦 uv 설치 중..."
 curl -LsSf https://astral.sh/uv/install.sh | sh
 export PATH="$HOME/.local/bin:$PATH"
 
+# 새 터미널에서도 uv가 인식되도록 PATH를 셸 RC에 영구 등록
+for RC in "$HOME/.bashrc" "$HOME/.zshrc"; do
+    if [ -f "$RC" ] && ! grep -q '.local/bin' "$RC"; then
+        echo 'export PATH="$HOME/.local/bin:$PATH"' >> "$RC"
+    fi
+done
+
 # 캐시/.venv가 서로 다른 파일시스템에 있을 때 하드링크 경고 방지
 export UV_LINK_MODE=copy
 
