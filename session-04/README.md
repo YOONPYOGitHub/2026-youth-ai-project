@@ -14,13 +14,15 @@
 | 2 | 프롬프트 엔지니어링 | `prompt_engineering_guide.ipynb`로 역할, 목표, 맥락, 형식, 제약 실습 | 20분
 | 3 | 토크나이저 | `tokenizer_tutorial.ipynb`로 토큰화 방식과 토큰 ID 실습 | 30분
 | 4 | 임베딩 | `embedding_guide.ipynb`로 벡터화, 유사도, 미니 검색 엔진 실습 | 30분
-| 5 | MicroGPT | `microgpt-tutorial.ipynb`로 Transformer/GPT 구조와 학습·추론 실습 | 60분
+| 5 | MicroGPT 미리보기 | `microgpt-preview.ipynb`로 LLM 내부를 들여다보기 전 큰 그림 잡기 | 15분
+| 6 | MicroGPT | `microgpt-tutorial.ipynb`로 Transformer/GPT 구조와 학습·추론 실습 | 60분
 
 ## 🛠️ 실습 파일
 
 - `prompt_engineering_guide.ipynb` — 프롬프트 엔지니어링 기법 실습
 - `tokenizer_tutorial.ipynb` — 토크나이저 개념과 코드 실습
 - `embedding_guide.ipynb` — 임베딩, 유사도, 미니 검색 엔진 실습
+- `microgpt-preview.ipynb` — MicroGPT 본 실습 전 도입 및 큰 그림 잡기
 - `microgpt-tutorial.ipynb` — MicroGPT로 Transformer/GPT 구조 이해
 
 ## 🔑 핵심 용어
